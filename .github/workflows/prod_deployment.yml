@@ -12,8 +12,7 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'bakehosue_analytics/**'  
+  workflow_dispatch:
 
 jobs:
   deploy:
